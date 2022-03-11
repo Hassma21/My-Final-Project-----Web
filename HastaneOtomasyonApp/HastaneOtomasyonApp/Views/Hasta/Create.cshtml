@@ -1,0 +1,40 @@
+﻿@model HastaneOtomasyonApp.Models.Hasta
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h1>YENİ HASTA KAYDI</h1>
+
+<h4>Hasta</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="HastaTamAdı" class="control-label"></label>
+                <input asp-for="HastaTamAdı" class="form-control" />
+                <span asp-validation-for="HastaTamAdı" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MobilNO" class="control-label"></label>
+                <input asp-for="MobilNO" class="form-control" />
+                <span asp-validation-for="MobilNO" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TCNO" class="control-label"></label>
+                <input asp-for="TCNO" class="form-control" />
+                <span asp-validation-for="TCNO" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Kayıt Aç" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Listeye Geri Dön</a>
+</div>

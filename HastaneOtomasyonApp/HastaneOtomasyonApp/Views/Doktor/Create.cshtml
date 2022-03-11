@@ -1,0 +1,40 @@
+﻿@model HastaneOtomasyonApp.Models.Doktor
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h1>Yeni Doktor Ekle</h1>
+
+<h4>Doktor</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DoktorTamAdı" class="control-label"></label>
+                <input asp-for="DoktorTamAdı" class="form-control" />
+                <span asp-validation-for="DoktorTamAdı" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MobilNO" class="control-label"></label>
+                <input asp-for="MobilNO" class="form-control" />
+                <span asp-validation-for="MobilNO" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TCNO" class="control-label"></label>
+                <input asp-for="TCNO" class="form-control" />
+                <span asp-validation-for="TCNO" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Oluştur" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Listeye Geri Dön</a>
+</div>

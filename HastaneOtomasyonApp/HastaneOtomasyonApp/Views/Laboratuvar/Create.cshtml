@@ -1,0 +1,34 @@
+﻿@model HastaneOtomasyonApp.Models.Laboratuvar
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h1>Yeni Laboratuvar Kaydı</h1>
+
+<h4>Laboratuvar</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="SonucID" class="control-label"></label>
+                <select asp-for="SonucID" class ="form-control" asp-items="ViewBag.SonucID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="HastaID" class="control-label"></label>
+                <select asp-for="HastaID" class ="form-control" asp-items="ViewBag.HastaID"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Oluştur" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Listeye Geri Dön</a>
+</div>
+

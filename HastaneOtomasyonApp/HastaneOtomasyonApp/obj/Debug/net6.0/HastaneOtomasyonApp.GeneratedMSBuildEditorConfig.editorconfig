@@ -1,0 +1,208 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HastaneOtomasyonApp
+build_property.RootNamespace = HastaneOtomasyonApp
+build_property.ProjectDir = c:\Users\Muhammed Yılmaz\Desktop\HastaneOtomasyonApp\HastaneOtomasyonApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\Muhammed Yılmaz\Desktop\HastaneOtomasyonApp\HastaneOtomasyonApp
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Birim/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlyaW1cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Birim/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlyaW1cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Birim/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlyaW1cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Birim/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlyaW1cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Birim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlyaW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Doktor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdG9yXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Doktor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdG9yXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Doktor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdG9yXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Doktor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdG9yXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Doktor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Hasta/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFzdGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Hasta/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFzdGFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Hasta/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFzdGFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Hasta/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFzdGFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Hasta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFzdGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Laboratuvar/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFib3JhdHV2YXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Laboratuvar/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFib3JhdHV2YXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Laboratuvar/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFib3JhdHV2YXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Laboratuvar/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFib3JhdHV2YXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Laboratuvar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFib3JhdHV2YXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Muayene/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVheWVuZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Muayene/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVheWVuZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Muayene/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVheWVuZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Muayene/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVheWVuZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Muayene/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVheWVuZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Shared/_Layout2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Shared/_Scripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TY3JpcHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Shared/_Styles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdHlsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Sonuc/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29udWNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Sonuc/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29udWNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Sonuc/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29udWNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Sonuc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29udWNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/Sonuc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29udWNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/ÖdemeTipi/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncw5ZkZW1lVGlwaVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/ÖdemeTipi/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncw5ZkZW1lVGlwaVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/ÖdemeTipi/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncw5ZkZW1lVGlwaVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/ÖdemeTipi/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncw5ZkZW1lVGlwaVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Muhammed Yılmaz/Desktop/HastaneOtomasyonApp/HastaneOtomasyonApp/Views/ÖdemeTipi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncw5ZkZW1lVGlwaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

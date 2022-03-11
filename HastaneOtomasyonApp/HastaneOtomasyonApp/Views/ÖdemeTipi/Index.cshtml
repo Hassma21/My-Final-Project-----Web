@@ -1,0 +1,36 @@
+﻿@model IEnumerable<HastaneOtomasyonApp.Models.ÖdemeTipi>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h1>ÖDEME TİPİ</h1>
+
+<p>
+    <a asp-action="Create">Yeni Ödeme Tipi Ekle</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ÖdemeTipiAdı)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ÖdemeTipiAdı)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ÖdemeTipiID">Düzenle</a> |
+                <a asp-action="Details" asp-route-id="@item.ÖdemeTipiID">Detaylar</a> |
+                <a asp-action="Delete" asp-route-id="@item.ÖdemeTipiID">Sil</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

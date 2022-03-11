@@ -1,0 +1,36 @@
+﻿@model HastaneOtomasyonApp.Models.Laboratuvar
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h1>Düzenle</h1>
+
+<h4>Laboratuvar</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="LaboratuvarID" />
+            <div class="form-group">
+                <label asp-for="SonucID" class="control-label"></label>
+                <select asp-for="SonucID" class="form-control" asp-items="ViewBag.SonucID"></select>
+                <span asp-validation-for="SonucID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HastaID" class="control-label"></label>
+                <select asp-for="HastaID" class="form-control" asp-items="ViewBag.HastaID"></select>
+                <span asp-validation-for="HastaID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Kaydet" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Listeye Geri Dön</a>
+</div>

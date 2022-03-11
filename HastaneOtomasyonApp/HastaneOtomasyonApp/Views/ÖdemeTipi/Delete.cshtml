@@ -1,0 +1,28 @@
+﻿@model HastaneOtomasyonApp.Models.ÖdemeTipi
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h1>Sil</h1>
+
+<h3>Silmek istediğinizden emin misiniz?</h3>
+<div>
+    <h4>ÖdemeTipi</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ÖdemeTipiAdı)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ÖdemeTipiAdı)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ÖdemeTipiID" />
+        <input type="submit" value="SİL" class="btn btn-danger" /> |
+        <a asp-action="Index">Listeye Geri Dön</a>
+    </form>
+</div>

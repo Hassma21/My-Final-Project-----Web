@@ -1,0 +1,99 @@
+﻿<aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <a asp-controller="Home" asp-action="Index" class="brand-link">
+        <img src="~/dist/img/logo.png" alt="Hastane Otomasyonu" class="brand-image img-circle elevation-3" style="opacity: .8">
+        <span class="brand-text font-weight-light"><small>HYS</small></span>
+    </a>
+    <div class="sidebar">
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            <div class="image">
+                <img src="~/dist/img/kullanıcıicon.png" class="img-circle elevation-2" alt="User Image">
+            </div>
+            <div class="info">
+                <a href="#" class="d-block">Batuhan & Muhammed</a>
+            </div>
+        </div>
+
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                <!-- Add icons to the links using the .nav-icon class
+                with font-awesome or any other icon font library -->
+                <li class="nav-item">
+                    <a asp-controller="Home" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["Controller"].ToString() == "Home" ? "active" : "")">
+                        <i class="nav-icon fas fa-home"></i>
+                        <p>
+                            ANA SAYFA
+                            @*<i class="right fas fa-angle-left"></i>*@
+                        </p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a asp-controller="Muayene" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["Controller"].ToString() == "Hasta" ? "active" : "")">
+                        <i class="fas fa-notes-medical"></i>
+                        <p class="ml-lg-1">
+                            MUAYENE KAYIT
+                            @*<i class="right fas fa-angle-left"></i>*@
+                        </p>
+                    </a>
+                </li>
+
+                <li class="nav-item @(new string[] { "Hasta","Doktor","Birim","ÖdemeTipi"}.Any(ViewContext.RouteData.Values["Controller"].ToString().Equals)?"menu-open":"")">
+                    <a href="#" class="nav-link @(new string[] { "Hasta","Doktor","Birim","ÖdemeTipi"}.Any(ViewContext.RouteData.Values["Controller"].ToString().Equals)?"active":"")">
+                        <i class="nav-icon fas fa-bars"></i>
+                        <p>
+                            KAYITLAR
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a asp-controller="Hasta" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["Controller"].ToString() == "Hasta" ? "active" : "") ">
+                                <i class="fas fa-user-friends nav-icon"></i>
+                                <p>HASTA</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Doktor" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["Controller"].ToString() == "Doktor" ? "active" : "") ">
+                                <i class="fa fa-user-md nav-icon"></i>
+                                <p>DOKTOR</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Birim" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["Controller"].ToString() == "Birim" ? "active" : "") " )">
+                                <i class="far fa-building nav-icon"></i>
+                                <p>BİRİM</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="ÖdemeTipi" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["Controller"].ToString() == "ÖdemeTipi" ? "active" : "") " )">
+                                <i class="fas fa-lira-sign nav-icon"></i>
+                                <p>ÖDEME TİPİ</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item @(new string[] { "Laboratuvar"}.Any(ViewContext.RouteData.Values["Controller"].ToString().Equals)?"menu-open":"")">
+                    <a href="#" class="nav-link @(new string[] {"Laboratuvar"}.Any(ViewContext.RouteData.Values["Controller"].ToString().Equals)?"active":"")">
+                        <i class="nav-icon fas fa-chart-pie"></i>
+                        <p>
+                            LABORATUVAR
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a asp-controller="Laboratuvar" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["Controller"].ToString() == "Oda" ? "active" : "") ">
+                                <i class="fas fa-flask nav-icon"></i>
+                                <p>LABORATUVAR KAYIT</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+</aside>

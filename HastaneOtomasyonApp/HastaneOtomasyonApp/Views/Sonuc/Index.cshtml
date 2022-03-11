@@ -1,0 +1,36 @@
+﻿@model IEnumerable<HastaneOtomasyonApp.Models.Sonuc>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+
+
+<p>
+    <a asp-action="Create">Sonuç Oluştur</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SonucAd)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SonucAd)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.SonucID">Düzenle</a> |
+                <a asp-action="Details" asp-route-id="@item.SonucID">Detaylar</a> |
+                <a asp-action="Delete" asp-route-id="@item.SonucID">Sil</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

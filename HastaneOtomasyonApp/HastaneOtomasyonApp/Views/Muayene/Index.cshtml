@@ -1,0 +1,80 @@
+﻿@model IEnumerable<HastaneOtomasyonApp.Models.Muayene>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h1></h1>
+
+<p>
+    <a asp-action="Create">Yeni Muayene Kaydı Oluştur</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Hasta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Doktor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HastaGeçmişi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HastaTeşhis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HastaTedavi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Yazılanİlaçlar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Birim)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.ÖdemeTipi)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Hasta.HastaTamAdı)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Doktor.DoktorTamAdı)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HastaGeçmişi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HastaTeşhis)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HastaTedavi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Yazılanİlaçlar)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Birim.BirimAdı)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ÖdemeTipi.ÖdemeTipiAdı)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.MuayeneID">Düzenle</a> |
+                    <a asp-action="Details" asp-route-id="@item.MuayeneID">Detaylar</a> |
+                    <a asp-action="Delete" asp-route-id="@item.MuayeneID">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

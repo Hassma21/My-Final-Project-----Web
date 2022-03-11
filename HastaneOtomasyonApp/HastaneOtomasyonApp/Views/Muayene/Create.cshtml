@@ -1,0 +1,62 @@
+﻿@model HastaneOtomasyonApp.Models.Muayene
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h1>OLUŞTUR</h1>
+
+<h4>Muayene</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="BirimID" class="control-label"></label>
+                <select asp-for="BirimID" class ="form-control" asp-items="ViewBag.BirimID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="HastaID" class="control-label"></label>
+                <select asp-for="HastaID" class ="form-control" asp-items="ViewBag.HastaID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DoktorID" class="control-label"></label>
+                <select asp-for="DoktorID" class ="form-control" asp-items="ViewBag.DoktorID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="HastaGeçmişi" class="control-label"></label>
+                <input asp-for="HastaGeçmişi" class="form-control" />
+                <span asp-validation-for="HastaGeçmişi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HastaTeşhis" class="control-label"></label>
+                <input asp-for="HastaTeşhis" class="form-control" />
+                <span asp-validation-for="HastaTeşhis" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HastaTedavi" class="control-label"></label>
+                <input asp-for="HastaTedavi" class="form-control" />
+                <span asp-validation-for="HastaTedavi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Yazılanİlaçlar" class="control-label"></label>
+                <input asp-for="Yazılanİlaçlar" class="form-control" />
+                <span asp-validation-for="Yazılanİlaçlar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ÖdemeTipiID" class="control-label"></label>
+                <select asp-for="ÖdemeTipiID" class ="form-control" asp-items="ViewBag.ÖdemeTipiID"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Oluştur" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Listeye Geri Dön</a>
+</div>
+

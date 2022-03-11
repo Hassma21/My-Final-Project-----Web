@@ -1,0 +1,31 @@
+﻿@model HastaneOtomasyonApp.Models.Laboratuvar
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h1>Detaylar</h1>
+
+<div>
+    <h4>Laboratuvar</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Sonuc)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Sonuc.SonucAd)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Hasta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Hasta.HastaTamAdı)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.LaboratuvarID">Düzenle</a> |
+    <a asp-action="Index">Listeye Geri Dön</a>
+</div>
